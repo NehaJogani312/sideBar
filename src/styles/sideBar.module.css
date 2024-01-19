@@ -1,0 +1,338 @@
+.sideBar {
+    width: 20%;
+    border: 1px solid #e7dede;
+    overflow-y: scroll!important;
+    background-color: #fff;
+}
+.toggleIcon{
+    display: flex;
+    align-items: center;
+}
+
+.toggleBtn{
+    display: none;
+}
+.closeToggle,.toggleLogo{
+    display: none;
+}
+.fixLogo{
+    position: sticky;       
+    top: 0;
+    overflow: hidden;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    padding: 24px 32px;
+}
+
+.bottomSide {
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.bottomSide h6 {
+    font-size: 14px;
+    color: #666666;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    padding: 8px 12px;
+}
+
+.sidebarLink {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.active{
+    color: rgb(59, 103, 199)!important;
+}
+.linkInner {
+    margin-top: 25px;
+}
+.bottomSide a{
+    padding: 8px 12px;
+    transition: 0.4s all;
+}
+.bottomSide a:hover{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+.sidebarJusti {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebarLink .icon {
+    margin-right: 16px;
+    font-size: 19px;
+    color: #333333;
+    
+}
+
+.sidebarJusti .new {
+    color: red;
+    border: 1px solid red;
+    background-color: rgb(240, 228, 228);
+    padding: 1px 5px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.sidebarJusti .update{
+    color: rgb(23, 78, 23);
+    border: 1px solid rgb(23, 78, 23);
+    background-color: rgb(194, 241, 194);
+    padding: 1px 5px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.Appkit {
+    font-size: 12px;
+    margin: 30px 0 15px;
+}
+.collapse{
+    margin: 10px 0;
+    display: block;
+}
+.collapse::before{
+    content: '•';
+margin-right: 20px;
+color: #ccc;
+}
+ul,li {
+    padding: 8px 12px;
+}
+
+@media(max-width:325px){
+    .toggleBtn{
+        display: block;
+        font-size: 30px;
+        padding: 15px 20px 10px;
+    }
+    .sideBar {
+        width: 100%;
+        border: 1px solid #e7dede;
+        position: absolute;
+        left: -3250px;
+        top: 0;
+    }
+    .sideBarToggle{
+        width: 100%;
+        border: 1px solid #e7dede;
+        overflow-y: scroll!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .closeToggle{
+        display: block;
+        padding: 20px 15px 20px;
+        font-size: 20px;
+    }
+    .toggleLogo{
+        display: block;
+    }
+}
+@media(min-width:326px) and (max-width:500px){
+    .toggleBtn{
+        display: block;
+        font-size: 30px;
+        padding: 15px 20px 10px;
+    }
+    .sideBar {
+        width: 100%;
+        border: 1px solid #e7dede;
+        position: absolute;
+        left: -3250px;
+        top: 0;
+    }
+    .sideBarToggle{
+        width: 80%;
+        border: 1px solid #e7dede;
+        overflow-y: scroll!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    .closeToggle{
+        display: block;
+        padding: 20px 15px 20px;
+        font-size: 20px;
+    }
+    .toggleLogo{
+        display: block;
+    }
+}
+@media(min-width:501px) and (max-width:575px){
+    .toggleBtn{
+        display: block;
+        font-size: 30px;
+        padding: 15px 20px 10px;
+    }
+    .sideBar {
+        width: 50%;
+        border: 1px solid #e7dede;
+        position: absolute;
+        left: -290px;
+        top: 0;
+    }
+    .sideBarToggle{
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .closeToggle{
+        display: block;
+        padding: 20px 15px 20px;
+        font-size: 20px;
+    }
+    .toggleLogo{
+        display: block;
+    }
+    
+}
+
+@media(min-width:576px) and (max-width:767px){
+    .toggleBtn{
+        display: block;
+        font-size: 30px;
+        padding: 15px 20px 10px;
+    }
+    .sideBar {
+        width: 50%;
+        position: absolute;
+        left: -385px;
+        top: 0;
+    }
+    .sideBarToggle{
+        width: 50%;
+        height: 100%;
+        overflow-y: scroll!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    .closeToggle{
+        display: block;
+        padding: 20px 15px 20px;
+        font-size: 20px;
+    }
+    .toggleLogo{
+        display: block;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .toggleBtn{
+        display: block;
+        font-size: 30px;
+        padding: 15px 20px 10px;
+    }
+    .sideBar {
+        width: 50%;
+        position: absolute;
+        left: -495px;
+        top: 0;
+    }
+    .sideBarToggle{
+        width: 50%;
+        height: 100%;
+        overflow-y: scroll!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .closeToggle{
+        display: block;
+        padding: 20px 15px 20px;
+        font-size: 20px;
+    }
+    .toggleLogo{
+        display: block;
+    }   
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    .toggleBtn{
+        display: block;
+        font-size: 30px;
+        padding: 15px 20px 10px;
+    }
+    .sideBar {
+        width: 50%;
+        position: absolute;
+        left: -600px;
+        top: 0;
+    }
+    .sideBarToggle{
+        width: 50%;
+        height: 100%;
+        overflow-y: scroll!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .closeToggle{
+        display: block;
+        padding: 20px 15px 20px;
+        font-size: 20px;
+    }
+    .toggleLogo{
+        display: block;
+    } 
+}
+@media(min-width:1200px) and (max-width:1279px){
+    .toggleBtn{
+        display: block;
+        font-size: 30px;
+        padding: 15px 20px 10px;
+    }
+    .sideBar {
+        width: 50%;
+        position: absolute;
+        left: -650px;
+        top: 0;
+    }
+    .sideBarToggle{
+        width: 50%;
+        height: 100%;
+        overflow-y: scroll!important;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .closeToggle{
+        display: block;
+        padding: 20px 15px 20px;
+        font-size: 20px;
+    }
+    .toggleLogo{
+        display: block;
+    } 
+}
+@media(min-width:1280px) and (max-width:1440px){
+    .sideBar {
+        width: 25%;
+        border: 1px solid #e7dede;
+        overflow-y: scroll!important;
+        background-color: #fff;
+    }
+    .toggleIcon{
+        display: flex;
+        align-items: center;
+    }
+    
+    .toggleBtn{
+        display: none;
+    }
+    .closeToggle,.toggleLogo{
+        display: none;
+    }
+}

@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+  color: #333333;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+a{
+  color: #333333;
+  font-weight: 400;
+}
+a,span{
+  display: inline-block;
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+
+}
+
+@media(max-width:575px){
+  img{
+    width: 100%;   
+  }
+}
+@media(min-width:576px) and (max-width:767px){
+  img{
+    width: 100%;
+  }
+}
+@media(min-width:768px) and (max-width:991px){
+  img{
+    width: 100%;
+  }
+}
+@media(min-width:992px) and (max-width:1199px){
+  img{
+    width: 100%;
+  }
+}
+@media(min-width:1200px) and (max-width:1279px){
+  img{
+    width: 100%;
+}
+}
